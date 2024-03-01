@@ -1,108 +1,122 @@
-body{
+body {
     background-color: #D8D8D8;
 }
-.container{
+
+.container {
     margin-top: 100px;
     background-color: #fff;
-    /* background-color: #395464; */
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    font-style: normal;
     border-radius: 15px;
     margin-left: 190px;
-   
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-#form-height{
+/* #form-height {
     height: 750px;
-}
-.margin{
+} */
+
+.margin {
     padding: 20px;
 }
-#back-img{
-    background-color: #161616 ;
-    background-size: cover;
+
+.card {
+    background-color: #161616;
     color: #F0D442;
-    font-size: 25px;
+    font-size: 18px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    font-style: normal;
     border-top-left-radius: 15px;
-    border-bottom-left-radius:15px;
-    line-height: 65px;
+    border-bottom-left-radius: 15px;
+    line-height: 1.5;
     padding-top: 40px;
+    /* width: 80%; */
+    
 }
-h2{
+
+h2 {
     margin-top: 20px;
-    font-weight: 700px;
-    font-weight: bold;
+    font-weight: 700;
 }
-#signup_form{
+
+#signup_form {
     font-weight: 200;
 }
 
-.form-group{
-    margin-top: 10px;
+.form-group {
+    margin-top: 15px;
 }
-.form-width{
-    margin-top: 40px;
-    width: 100%;
+
+.form-width {
+    margin-top: 30px;
+    /* width: 100%; */
+    padding: 10px;
+    font-size: 16px;
+    
 }
-.red{
+
+.red {
     color: red;
     font-style: italic;
     font-size: 12px;
 }
-.google{
-    border: 1px solid;
-}
-.account{
-    font-size: 12px;
+
+.account {
+    font-size: 14px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
 }
-p a{
+
+p a {
     text-decoration: none;
     color: #8fcbf3;
     margin-top: 10px;
+    font-weight: 600;
 }
-#g-1{
-    color: #4285F4;
+
+#smart {
+    /* color: #F0D442; */
+    font-size: 40px;
+    font-weight: 700;
 }
-#o-1{
-    color: #DB4437;
-}
-#o-2{
-    color: #F4B400;
-}
-#g-2{
-    color: #4285F4;
-}
-#l{
-    color: #0F9D58;
-}
-#e{
-    color: red;
-}
-#smart{
-    color: #fff;
-    font-size: 60px;
-    font-weight: 500;
-}
-#para{
-    font-size: 20px;
-    font-weight: 400;
-}
-#para-1{
-    font-size: 15px;
-    font-weight: 100;
-}
-#para-0{
-    font-weight: 500;
-   
-}
+
 .error {
     color: red;
     font-size: 0.8rem;
+    margin-top: 5px;
 }
 
+/* Add some styling to form inputs for better visibility and aesthetics */
+input[type="email"],
+input[type="password"] {
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    /* margin-bottom: 15px; */
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    background-color: #F0D442;
+    color: #161616;
+    font-size: 18px;
+    font-weight: 600;
+    /* padding: 10px 15px; */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 40%;
+}
+
+button[type="submit"]:hover {
+    background-color: #E0C300;
+}
+label{
+    color: #fff;
+}
